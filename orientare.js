@@ -1,7 +1,7 @@
 window.addEventListener("deviceorientation", on_device_orientation);
 
 function on_device_orientation(evt) {
-    var alpha = etv.alpha;
+    var alpha = evt.alpha;
     var beta = evt.beta;
     var gamma = evt.gamma;
 
